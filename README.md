@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-SSL-Certificate-Lifecycle-Management/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -56,48 +56,48 @@ As certificate lifetimes shrink (toward 45-day validity windows) and zero-trust 
 
 ## 💻 Open-Source GitHub Projects
 
-Curated list of leading open-source repositories for automated issuance, private certificate authorities, ACME protocol clients, secrets management, and cryptographic primitives — sorted by GitHub Stars in descending order.
+Curated list of leading open-source repositories for automated issuance, private certificate authorities, ACME protocol clients, secrets management, and cryptographic primitives — sorted by GitHub_Stars in descending order.
 
-- **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+- **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
   Fast, multi-platform web server with automatic HTTPS by default using ACME (Let's Encrypt / ZeroSSL) with fully automated certificate renewal, OCSP stapling, and multi-issuer failover.
 
-- **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+- **[Traefik](https://github.com/traefik/traefik)** [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
   Cloud-native HTTP reverse proxy and load balancer with automatic Let's Encrypt / ACME TLS certificate provisioning, HTTP/3 support, and ingress orchestration.
 
-- **[mkcert](https://github.com/FiloSottile/mkcert)** [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/mkcert?style=social&color=white)](https://github.com/FiloSottile/mkcert/stargazers)  
+- **[mkcert](https://github.com/FiloSottile/mkcert)** [![GitHub_Stars](https://img.shields.io/github/stars/FiloSottile/mkcert?style=social&color=white)](https://github.com/FiloSottile/mkcert/stargazers)  
   Zero-config tool for generating locally trusted SSL/TLS development certificates signed by an automatically created and installed local Root CA.
 
-- **[acme.sh](https://github.com/acmesh-official/acme.sh)** [![GitHub stars](https://img.shields.io/github/stars/acmesh-official/acme.sh?style=social&color=white)](https://github.com/acmesh-official/acme.sh/stargazers)  
+- **[acme.sh](https://github.com/acmesh-official/acme.sh)** [![GitHub_Stars](https://img.shields.io/github/stars/acmesh-official/acme.sh?style=social&color=white)](https://github.com/acmesh-official/acme.sh/stargazers)  
   Pure Unix shell ACME client implementing full ACME v1 and v2 protocols with zero dependencies, supporting 150+ DNS API providers for automated DNS-01 challenge verification.
 
-- **[Certbot](https://github.com/certbot/certbot)** [![GitHub stars](https://img.shields.io/github/stars/certbot/certbot?style=social&color=white)](https://github.com/certbot/certbot/stargazers)  
+- **[Certbot](https://github.com/certbot/certbot)** [![GitHub_Stars](https://img.shields.io/github/stars/certbot/certbot?style=social&color=white)](https://github.com/certbot/certbot/stargazers)  
   EFF's official ACME client that automatically fetches and deploys free SSL/TLS certificates from Let's Encrypt for Apache, Nginx, and custom Linux servers.
 
-- **[OpenSSL](https://github.com/openssl/openssl)** [![GitHub stars](https://img.shields.io/github/stars/openssl/openssl?style=social&color=white)](https://github.com/openssl/openssl/stargazers)  
+- **[OpenSSL](https://github.com/openssl/openssl)** [![GitHub_Stars](https://img.shields.io/github/stars/openssl/openssl?style=social&color=white)](https://github.com/openssl/openssl/stargazers)  
   The foundational cryptography toolkit and library providing robust implementations of TLS/SSL protocols, X.509 certificate generation, key management, and PKI CLI operations.
 
-- **[cert-manager](https://github.com/cert-manager/cert-manager)** [![GitHub stars](https://img.shields.io/github/stars/cert-manager/cert-manager?style=social&color=white)](https://github.com/cert-manager/cert-manager/stargazers)  
+- **[cert-manager](https://github.com/cert-manager/cert-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/cert-manager/cert-manager?style=social&color=white)](https://github.com/cert-manager/cert-manager/stargazers)  
   Kubernetes-native certificate controller that automates the issuance and renewal of TLS certificates from ACME (Let’s Encrypt), HashiCorp Vault, Venafi, and internal CA issuers.
 
-- **[Lego](https://github.com/go-acme/lego)** [![GitHub stars](https://img.shields.io/github/stars/go-acme/lego?style=social&color=white)](https://github.com/go-acme/lego/stargazers)  
+- **[Lego](https://github.com/go-acme/lego)** [![GitHub_Stars](https://img.shields.io/github/stars/go-acme/lego?style=social&color=white)](https://github.com/go-acme/lego/stargazers)  
   Pure Go ACME client library and CLI tool supporting Let's Encrypt and RFC 8555 ACME CAs with built-in support for dozens of DNS providers.
 
-- **[CFSSL (Cloudflare PKI & TLS toolkit)](https://github.com/cloudflare/cfssl)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/cfssl?style=social&color=white)](https://github.com/cloudflare/cfssl/stargazers)  
+- **[CFSSL (Cloudflare PKI & TLS toolkit)](https://github.com/cloudflare/cfssl)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudflare/cfssl?style=social&color=white)](https://github.com/cloudflare/cfssl/stargazers)  
   Cloudflare’s open-source PKI and TLS Swiss Army knife for signing, verifying, and bundling TLS certificates, serving as an HTTP-based Certificate Authority.
 
-- **[step-ca (Smallstep Certificates)](https://github.com/smallstep/certificates)** [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)  
+- **[step-ca (Smallstep Certificates)](https://github.com/smallstep/certificates)** [![GitHub_Stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)  
   Private Certificate Authority (CA) and ACME server for automated X.509 and SSH certificate issuance, zero-trust service-to-service mTLS, and internal infrastructure PKI.
 
-- **[Lemur (Netflix)](https://github.com/Netflix/lemur)** [![GitHub stars](https://img.shields.io/github/stars/Netflix/lemur?style=social&color=white)](https://github.com/Netflix/lemur/stargazers)  
+- **[Lemur (Netflix)](https://github.com/Netflix/lemur)** [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/lemur?style=social&color=white)](https://github.com/Netflix/lemur/stargazers)  
   Netflix's certificate orchestration and lifecycle management platform for discovering, creating, and tracking SSL/TLS certificates across multi-cloud environments.
 
-- **[SPIRE (SPIFFE Runtime Engine)](https://github.com/spiffe/spire)** [![GitHub stars](https://img.shields.io/github/stars/spiffe/spire?style=social&color=white)](https://github.com/spiffe/spire/stargazers)  
+- **[SPIRE (SPIFFE Runtime Engine)](https://github.com/spiffe/spire)** [![GitHub_Stars](https://img.shields.io/github/stars/spiffe/spire?style=social&color=white)](https://github.com/spiffe/spire/stargazers)  
   Production-ready implementation of the SPIFFE APIs that performs node and workload attestation to securely issue short-lived cryptographic X.509 SVID machine identities.
 
-- **[EJBCA Community](https://github.com/Keyfactor/ejbca-ce)** [![GitHub stars](https://img.shields.io/github/stars/Keyfactor/ejbca-ce?style=social&color=white)](https://github.com/Keyfactor/ejbca-ce/stargazers)  
+- **[EJBCA Community](https://github.com/Keyfactor/ejbca-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/Keyfactor/ejbca-ce?style=social&color=white)](https://github.com/Keyfactor/ejbca-ce/stargazers)  
   Enterprise-grade, open-source Public Key Infrastructure (PKI) and Certificate Authority (CA) supporting multi-tier CAs, CRL/OCSP responders, EST, CMP, and ACME.
 
-- **[trust-manager](https://github.com/cert-manager/trust-manager)** [![GitHub stars](https://img.shields.io/github/stars/cert-manager/trust-manager?style=social&color=white)](https://github.com/cert-manager/trust-manager/stargazers)  
+- **[trust-manager](https://github.com/cert-manager/trust-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/cert-manager/trust-manager?style=social&color=white)](https://github.com/cert-manager/trust-manager/stargazers)  
   Operator for distributing and managing trusted Root CA certificate bundles across all namespaces in Kubernetes clusters seamlessly.
 
 ---
