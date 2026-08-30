@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Keyfactor](https://www.keyfactor.com/)**  
-
-  Enterprise certificate lifecycle and PKI platform (includes EJBCA) — strong AD CS integration, discovery, and full-stack machine identity.
-
-
-
-- **[Venafi (CyberArk Machine Identity)](https://www.venafi.com/)**  
-
-  Leading machine identity and certificate management platform for large enterprises — broad integrations and policy-driven CLM.
-
-
-
-- **[DigiCert Trust Lifecycle Manager](https://www.digicert.com/)**  
-
-  DigiCert’s unified CLM and digital trust platform — public and private certificate lifecycle with tight CA integration.
-
-
-
-- **[AppViewX](https://www.appviewx.com/)**  
-
-  Certificate and crypto automation platform with strong network device support, workflows, and crypto-agility features.
-
-
-
-- **[Sectigo Certificate Manager](https://www.sectigo.com/)**  
-
-  Certificate lifecycle management tied to a major public CA, with automation and CA-agnostic options.
-
-
-
-- **[Entrust PKI / certificate management](https://www.entrust.com/)**  
-
-  Enterprise PKI and certificate services for identity and machine trust.
-
-
-
-- **[KeyTalk](https://www.keytalk.com/)**  
-
-  Certificate and key management solutions focused on automated delivery and lifecycle.
-
-
-
-- **[Smallstep (Certificate Manager)](https://smallstep.com/)**  
-
-  Modern certificate automation and private CA platform (commercial offerings built on open step-ca).
-
-
-
-- **[Certify The Web](https://certifytheweb.com/)**  
-
-  Windows-oriented certificate management and ACME automation for IIS and related workloads.
-
-
-
-- **[ZeroSSL](https://zerossl.com/)**  
-
-  Certificate authority and management tools with ACME support and free/paid certificate options.
+| Platform | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Keyfactor](https://www.keyfactor.com/)** | Enterprise certificate lifecycle and PKI platform (includes EJBCA) — strong AD CS integration, discovery, and full-stack machine identity. | Starts at ~$75,000/year for enterprise platform; cloud marketplace instances via AWS/Azure private offers | 30-day free trial on AWS/Azure Marketplace for EJBCA Enterprise Cloud; open-source EJBCA Community Edition free forever |
+| **[Venafi (CyberArk Machine Identity)](https://www.venafi.com/)** | Leading machine identity and certificate management platform for large enterprises — broad integrations and policy-driven CLM. | Starts at ~$150,000/year for enterprise contract; private offers on AWS Marketplace | 30-day free trial for TLS Protect Cloud (includes full domain certificate discovery scan & visibility) |
+| **[DigiCert Trust Lifecycle Manager](https://www.digicert.com/)** | DigiCert’s unified CLM and digital trust platform — public and private certificate lifecycle with tight CA integration. | Essentials tier starts at ~$2,500/year (seat-based licensing across Essentials, Advanced, and Premium tiers) | 30-day free trial account available upon request (includes discovery & lifecycle evaluation) |
+| **[AppViewX](https://www.appviewx.com/)** | Certificate and crypto automation platform with strong network device support, workflows, and crypto-agility features. | Starts at ~$15,000/year for AVX ONE CLM base deployment / AWS Marketplace private offers | 30-day free trial on AppViewX Cloud & AWS Marketplace; includes unlimited free public SSL discovery scan |
+| **[Sectigo Certificate Manager](https://www.sectigo.com/)** | Certificate lifecycle management tied to a major public CA, with automation and CA-agnostic options. | SCM Pro starts at $10.75/month ($129/year) per domain; Wildcard tier at $48.25/month | 30-day free trial (includes discovery scan and up to 5 free 90-day DV certificates; no credit card required) |
+| **[Entrust PKI / certificate management](https://www.entrust.com/)** | Enterprise PKI and certificate services for identity and machine trust. | Core PKIaaS bundles start at £6,000/year (~$7,800/year); individual certificates from $24/cert/year | 60-day free trial for Managed PKI upon request; free discovery tools |
+| **[KeyTalk](https://www.keytalk.com/)** | Certificate and key management solutions focused on automated delivery and lifecycle. | CKMS platform licenses start at ~€2,500/year (~$2,700/year) based on managed seats/endpoints | 30-day Proof of Concept (PoC) / evaluation trial license with full technical consultation |
+| **[Smallstep (Certificate Manager)](https://smallstep.com/)** | Modern certificate automation and private CA platform (commercial offerings built on open step-ca). | Hosted plans start at $3.00/host/month; custom enterprise bundles for advanced scale | Free forever tier for homelabs and small teams (free SaaS Certificate Manager with `step-ca` integration) or 14-day enterprise trial |
+| **[Certify The Web](https://certifytheweb.com/)** | Windows-oriented certificate management and ACME automation for IIS and related workloads. | $59.00/year per server license (or $4.99/server/month on Microsoft Azure Marketplace) | Free forever Community Edition (manages up to 5 certificates per server install; community support) |
+| **[ZeroSSL](https://zerossl.com/)** | Certificate authority and management tools with ACME support and free/paid certificate options. | Basic plan starts at $9.99/month ($119.88/year); Premium at $52.99/month | Free forever plan (3 90-day certificates via UI; unlimited 90-day certificates via ACME API) |
 
 
 
