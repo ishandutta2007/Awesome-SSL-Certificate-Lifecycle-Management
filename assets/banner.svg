@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="50%" stop-color="#0a122c" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#7f00ff" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7f00ff" stop-opacity="0.8" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.05); }
+      }
+      @keyframes floatRing {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes floatRevRing {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -100; }
+      }
+      .pulsing-glow {
+        animation: pulseGlow 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .ring-rotate {
+        animation: floatRing 20s linear infinite;
+        transform-origin: 980px 230px;
+      }
+      .ring-rev-rotate {
+        animation: floatRevRing 14s linear infinite;
+        transform-origin: 980px 230px;
+      }
+      .flow-line {
+        stroke-dasharray: 8, 6;
+        animation: dashAnim 6s linear infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -1px;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="460" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#1e293b" stroke-width="0.75" opacity="0.4">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="220" x2="1200" y2="220" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="380" x2="1200" y2="380" />
+    <line x1="100" y1="0" x2="100" y2="460" />
+    <line x1="300" y1="0" x2="300" y2="460" />
+    <line x1="500" y1="0" x2="500" y2="460" />
+    <line x1="700" y1="0" x2="700" y2="460" />
+    <line x1="900" y1="0" x2="900" y2="460" />
+    <line x1="1100" y1="0" x2="1100" y2="460" />
+  </g>
+
+  <!-- Flowing dynamic curves -->
+  <path d="M -50 380 Q 300 200 650 360 T 1250 180" fill="none" stroke="url(#cyanPurple)" stroke-width="2" opacity="0.3" class="flow-line" />
+  <path d="M -50 120 Q 400 350 800 120 T 1250 340" fill="none" stroke="#7f00ff" stroke-width="1.5" opacity="0.25" class="flow-line" />
+
+  <!-- Background glowing ambient circles -->
+  <circle cx="980" cy="230" r="160" fill="#00f2fe" opacity="0.12" filter="url(#glow)" class="pulsing-glow" />
+  <circle cx="200" cy="120" r="120" fill="#7f00ff" opacity="0.08" filter="url(#glow)" class="pulsing-glow" />
+
+  <!-- Orbiting Rings on Right Side -->
+  <g class="ring-rotate">
+    <circle cx="980" cy="230" r="140" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="12 18" opacity="0.4" />
+    <circle cx="980" cy="90" r="6" fill="#00f2fe" filter="url(#softGlow)" />
+  </g>
+  <g class="ring-rev-rotate">
+    <circle cx="980" cy="230" r="105" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="10 14" opacity="0.5" />
+    <circle cx="980" cy="335" r="5" fill="#a855f7" filter="url(#softGlow)" />
+  </g>
+
+  <!-- Central Shield & Lock Graphic (Right) -->
+  <g transform="translate(980, 230) scale(1.1)">
+    <!-- Outer Hexagon / Shield -->
+    <path d="M 0 -70 L 60 -35 L 60 35 L 0 70 L -60 35 L -60 -35 Z" fill="#0b132b" stroke="url(#cyanPurple)" stroke-width="3" filter="url(#softGlow)" />
+    <!-- Lock Body -->
+    <rect x="-24" y="-8" width="48" height="38" rx="8" fill="url(#shieldGrad)" />
+    <!-- Lock Shackle -->
+    <path d="M -15 -8 L -15 -24 C -15 -35 15 -35 15 -24 L 15 -8" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+    <!-- Keyhole -->
+    <circle cx="0" cy="7" r="4" fill="#0b132b" />
+    <path d="M -2 7 L 2 7 L 3 19 L -3 19 Z" fill="#0b132b" />
+  </g>
+
+  <!-- Left Content Area -->
+  <!-- Category Pill Badge -->
+  <g transform="translate(80, 75)">
+    <rect width="260" height="32" rx="16" fill="#00f2fe" fill-opacity="0.12" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1.2" />
+    <circle cx="16" cy="16" r="5" fill="#38ef7d" filter="url(#softGlow)" />
+    <text x="32" y="21" fill="#38ef7d" font-size="13" font-weight="700" font-family="-apple-system, sans-serif" letter-spacing="1.5">ZERO OUTAGES &amp; AUTOMATION</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="170" fill="#ffffff" font-size="44" class="title-text">
+    Awesome SSL/TLS
+  </text>
+  <text x="80" y="225" fill="url(#cyanPurple)" font-size="40" class="title-text" filter="url(#softGlow)">
+    Certificate Lifecycle Management
+  </text>
+
+  <!-- Subtitle / Mission -->
+  <text x="80" y="280" fill="#94a3b8" font-size="19" class="sub-text">
+    A curated index of enterprise SaaS platforms, open-source PKI tools,
+  </text>
+  <text x="80" y="310" fill="#94a3b8" font-size="19" class="sub-text">
+    ACME engines, dynamic machine identity, &amp; certificate discovery scanners.
+  </text>
+
+  <!-- Feature Chips -->
+  <g transform="translate(80, 360)">
+    <!-- Chip 1 -->
+    <rect x="0" y="0" width="130" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="65" y="22" fill="#38bdf8" font-size="13" font-weight="600" font-family="-apple-system, sans-serif" text-anchor="middle">ACME &amp; Auto</text>
+
+    <!-- Chip 2 -->
+    <rect x="145" y="0" width="140" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="215" y="22" fill="#a78bfa" font-size="13" font-weight="600" font-family="-apple-system, sans-serif" text-anchor="middle">Zero Trust PKI</text>
+
+    <!-- Chip 3 -->
+    <rect x="300" y="0" width="150" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="375" y="22" fill="#34d399" font-size="13" font-weight="600" font-family="-apple-system, sans-serif" text-anchor="middle">Full Discovery</text>
+
+    <!-- Chip 4 -->
+    <rect x="465" y="0" width="160" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="545" y="22" fill="#f472b6" font-size="13" font-weight="600" font-family="-apple-system, sans-serif" text-anchor="middle">Machine Identity</text>
+  </g>
+</svg>
