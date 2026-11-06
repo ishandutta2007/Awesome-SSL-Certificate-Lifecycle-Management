@@ -100,6 +100,9 @@ Curated list of leading open-source repositories for automated issuance, private
 - **[trust-manager](https://github.com/cert-manager/trust-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/cert-manager/trust-manager?style=social&color=white)](https://github.com/cert-manager/trust-manager/stargazers)  
   Operator for distributing and managing trusted Root CA certificate bundles across all namespaces in Kubernetes clusters seamlessly.
 
+- **[trustsweep](https://github.com/hamarshehmhmd/trustsweep)** [![GitHub_Stars](https://img.shields.io/github/stars/hamarshehmhmd/trustsweep?style=social&color=white)](https://github.com/hamarshehmhmd/trustsweep/stargazers)  
+  CLI that finds every CA trust store on a machine or unpacked container image (OS bundle, Python certifi and pip copies, Java cacerts, Node built-ins) and checks that a root CA is present, absent or not expired in all of them.
+
 ---
 
 ## 🏗️ Reference Architecture & Frameworks
