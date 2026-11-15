@@ -103,6 +103,9 @@ Curated list of leading open-source repositories for automated issuance, private
 - **[trustsweep](https://github.com/hamarshehmhmd/trustsweep)** [![GitHub_Stars](https://img.shields.io/github/stars/hamarshehmhmd/trustsweep?style=social&color=white)](https://github.com/hamarshehmhmd/trustsweep/stargazers)  
   CLI that finds every CA trust store on a machine or unpacked container image (OS bundle, Python certifi and pip copies, Java cacerts, Node built-ins) and checks that a root CA is present, absent or not expired in all of them.
 
+- **[certcliff](https://github.com/hamarshehmhmd/certcliff)** [![GitHub_Stars](https://img.shields.io/github/stars/hamarshehmhmd/certcliff?style=social&color=white)](https://github.com/hamarshehmhmd/certcliff/stargazers)  
+  CLI and GitHub Action that inventories a domain's certificates from Certificate Transparency logs, checks what each endpoint actually serves, and flags renewed-but-not-deployed certs, stalled ACME renewals, hand-renewed certs that won't survive the 200/100/47-day lifetime cuts, and certs from exiting or distrusted CAs.
+
 ---
 
 ## 🏗️ Reference Architecture & Frameworks
